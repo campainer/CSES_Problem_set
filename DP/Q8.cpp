@@ -42,6 +42,6 @@ int main()
     int ans = 0;
     for (int x : dp[n])
         add(ans, x);
-    cout << ans;
+    printf("%d", ans);
     return 0;
 }
